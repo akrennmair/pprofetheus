@@ -1,6 +1,7 @@
 # pprofetheus
 
 [![GoDoc](https://godoc.org/github.com/travelaudience/pprofetheus?status.svg)](https://godoc.org/github.com/travelaudience/pprofetheus)
+[![Go Report Card](https://goreportcard.com/badge/github.com/travelaudience/pprofetheus)](https://goreportcard.com/report/github.com/travelaudience/pprofetheus)
 
 pprofetheus is a collector for [Prometheus](https://prometheus.io/) that 
 collects CPU profiling data for the current process and exports them as metrics. 
