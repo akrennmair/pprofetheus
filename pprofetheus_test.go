@@ -22,6 +22,12 @@ func TestCPUProfileCollector(t *testing.T) {
 	}
 
 	cpuProfileCollector.Start()
+	if !cpuProfileCollector.running {
+		t.Fatal("running = false after Start()")
+	}
+	// even though we call Start twice here, the second call is a no-op,
+	// and thus should not be counted towards the started metric.
+	cpuProfileCollector.Start()
 
 	spendSomeTimeComputing()
 
