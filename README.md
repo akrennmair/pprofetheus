@@ -44,7 +44,7 @@ been called on the collector.
 
 ## License
 
-Please see the file [LICENSE.md](LICENSE.md) for licensing information.
+Please see the file [LICENSE](LICENSE) for licensing information.
 
 The files in the subdirectory `internal` are subject to a separate license. See
 [internal/LICENSE](internal/LICENSE) for licensing information.
